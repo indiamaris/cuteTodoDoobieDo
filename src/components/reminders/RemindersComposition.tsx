@@ -1,6 +1,6 @@
 /** @format */
 
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import ReminderService from '../../services/remindersbacken';
 import ReminderList from './reminderList';
