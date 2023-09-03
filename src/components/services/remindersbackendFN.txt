@@ -1,0 +1,16 @@
+import axios from "axios";
+import Reminder from '../interfaces/reminder';
+
+
+const RemindersBackend = () => {
+	const http = axios.create({
+		baseURL:'https://jsonplaceholder.typicode.com'
+	})
+	return ( http );
+}
+ 
+let getReminders = async(http) =>  const response = await http.get<Reminder[]>('/todos')
+	
+	
+	
+export default RemindersBackend;

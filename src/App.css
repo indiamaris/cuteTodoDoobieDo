@@ -1,38 +1,188 @@
-.App {
-  text-align: center;
+/** @format */
+/* Fontes personalizadas */
+@font-face {
+	font-family: mtt;
+	src: local('mtt'), url('./fonts/mtt.ttf') format('truetype');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+	font-family: chery;
+	src: local('cheri.regular'),
+		url('./fonts/cheri.regular.ttf') format('truetype');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+	font-family: chery;
+	src: local('dlmm'), url('./fonts/dlmm.ttf') format('truetype');
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* fim das fontes fofas */
+*{
+color: rgb(229, 120, 143);
+}
+@media (min-width: 1000px) 
+{
+	body {
+
+		width: 100vw;
+		padding: 1vw;
+		background-color: rgb(230, 140, 160);
+	}
+
+	.generalCuteContainer {
+		border-radius: 20px;
+		background-color: rgb(245, 221, 204);
+		height: 96vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	h1 {
+		font-family: mtt;
+		font-size: 150px;
+		color: rgb(229, 120, 143);
+		line-height: 150px;
+	}
+
+	h2 {
+		font-family: chery;
+		font-size: 30px;
+		line-height: 0px;
+		color: rgb(229, 120, 143);
+	}
+
+	.addBtnCute {
+		color: rgb(239, 237, 238);
+		background-color: rgb(126, 150, 90);
+		border: solid 1px rgb(107, 128, 75);
+
+		border-radius: 25px;
+	}
+
+	.cuteForm {
+		background-color: rgba(244, 229, 160, 0.585);
+		border: solid 1px rgba(157, 136, 40, 0.585);
+		border-radius: 25px;
+		width: 65vw;
+		height: 35px;
+	}
+
+	.cuteRemindersBox {
+		border-radius: 20px;
+		border: solid 1px rgb(225, 111, 135);
+		height: 400px;
+		width: 68vw;
+		overflow-y: scroll;
+		scrollbar-color: light;
+		scrollbar-color: pink white;
+	}
+
+	
+
+	.cute-item-list {
+		background-color: rgb(245, 221, 204);
+		border: none;
+
+		font-size: 25px;
+		font-family: chery;
+		letter-spacing: 2px;
+	}
+	.cuteBtn {
+		background-color: rgba(244, 229, 160, 0.585);
+		border: solid 1px rgb(229, 120, 143);
+		font-size: 10px;
+		margin-left: 30px;
+	}
+
+	.cuteBtn:hover {
+		background-color: rgb(126, 150, 90);
+		border: solid 2px rgb(107, 128, 75);
+		color: rgb(238, 237, 239);
+	}
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* TELINHA DE CELULAR  */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media (max-width: 999px)
+ {
+	body {
+
+		width: 100vw;
+		padding: 1vw;
+			background-color: rgb(245, 221, 204);
+	}
+
+	.generalCuteContainer {
+		border-radius: 20px;
+
+		height: 96vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	h1 {
+		font-family: mtt;
+		font-size: 50px;
+		color: rgb(229, 120, 143);
+		line-height: 50px;
+	}
+
+	h2 {
+		font-family: chery;
+		font-size: 10px;
+		line-height: 0px;
+		color: rgb(229, 120, 143);
+	}
+
+	.addBtnCute {
+		color: rgb(239, 237, 238);
+		background-color: rgb(126, 150, 90);
+		border: solid 1px rgb(107, 128, 75);
+		font-size: 5px;
+		border-radius: 55px;
+	}
+
+	.cuteForm {
+		background-color: rgba(244, 229, 160, 0.585);
+		border: solid 1px rgba(157, 136, 40, 0.585);
+		border-radius: 25px;
+		width: 65vw;
+		height: 25px;
+	}
+
+	.cuteRemindersBox {
+		border-radius: 20px;
+		border: solid 1px rgb(225, 111, 135);
+		height: 70vh;
+		width: 75vw;
+		overflow-y: scroll;
+		scrollbar-color: light;
+		scrollbar-color: pink white;
+	}
+
+	
+
+	.cute-item-list {
+		background-color: rgb(245, 221, 204);
+		border: none;
+		font-size: 20px;
+		font-family: chery;
+		letter-spacing: 2px;
+	}
+	.cuteBtn {
+		background-color: rgba(244, 229, 160, 0.585);
+		border: solid 1px rgb(229, 120, 143);
+		font-size: 5px;
+		margin-left: 10px;
+	}
+
+	.cuteBtn:hover {
+		background-color: rgb(126, 150, 90);
+		border: solid 1px rgb(107, 128, 75);
+		color: rgb(238, 237, 239);
+	}
 }

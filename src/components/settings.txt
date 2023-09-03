@@ -1,0 +1,131 @@
+root, [data-bs-theme=light] {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-black: #000;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-gray-700: #495057;
+    --bs-gray-800: #343a40;
+    --bs-gray-900: #212529;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-primary-rgb: 13, 110, 253;
+    --bs-secondary-rgb: 108, 117, 125;
+    --bs-success-rgb: 25, 135, 84;
+    --bs-info-rgb: 13, 202, 240;
+    --bs-warning-rgb: 255, 193, 7;
+    --bs-danger-rgb: 220, 53, 69;
+    --bs-light-rgb: 248, 249, 250;
+    --bs-dark-rgb: 33, 37, 41;
+    --bs-primary-text-emphasis: #052c65;
+    --bs-secondary-text-emphasis: #2b2f32;
+    --bs-success-text-emphasis: #0a3622;
+    --bs-info-text-emphasis: #055160;
+    --bs-warning-text-emphasis: #664d03;
+    --bs-danger-text-emphasis: #58151c;
+    --bs-light-text-emphasis: #495057;
+    --bs-dark-text-emphasis: #495057;
+    --bs-primary-bg-subtle: #cfe2ff;
+    --bs-secondary-bg-subtle: #e2e3e5;
+    --bs-success-bg-subtle: #d1e7dd;
+    --bs-info-bg-subtle: #cff4fc;
+    --bs-warning-bg-subtle: #fff3cd;
+    --bs-danger-bg-subtle: #f8d7da;
+    --bs-light-bg-subtle: #fcfcfd;
+    --bs-dark-bg-subtle: #ced4da;
+    --bs-primary-border-subtle: #9ec5fe;
+    --bs-secondary-border-subtle: #c4c8cb;
+    --bs-success-border-subtle: #a3cfbb;
+    --bs-info-border-subtle: #9eeaf9;
+    --bs-warning-border-subtle: #ffe69c;
+    --bs-danger-border-subtle: #f1aeb5;
+    --bs-light-border-subtle: #e9ecef;
+    --bs-dark-border-subtle: #adb5bd;
+    --bs-white-rgb: 255, 255
+
+	order 0
+orphans 2
+outline-color rgb(33, 37, 41)
+outline-offset 0px
+outline-style none
+outline-width 0px
+overflow-anchor auto
+overflow-clip-margin 0px
+overflow-wrap normal
+overflow-x hidden
+overflow-y scroll
+overscroll-behavior-block auto
+overscroll-behavior-inline auto
+overscroll-behavior-x auto
+overscroll-behavior-y auto
+padding-block-end 8px
+padding-block-start 8px
+padding-bottom 8px
+padding-inline-end 8px
+padding-inline-start 8px
+padding-left 8px
+padding-right 8px
+padding-top 8px
+page auto
+page-orientation
+paint-order normal
+perspective none
+perspective-origin 499px 200px
+pointer-events auto
+position static
+quotes auto
+r 0px
+resize none
+right auto
+rotate none
+row-gap normal
+ruby-position over
+rx auto
+ry auto
+scale none
+scroll-behavior auto
+scroll-margin-block-end 0px
+scroll-margin-block-start 0px
+scroll-margin-bottom 0px
+scroll-margin-inline-end 0px
+scroll-margin-inline-start 0px
+scroll-margin-left 0px
+scroll-margin-right 0px
+scroll-margin-top 0px
+scroll-padding-block-end auto
+scroll-padding-block-start auto
+scroll-padding-bottom auto
+scroll-padding-inline-end auto
+scroll-padding-inline-start auto
+scroll-padding-left auto
+scroll-padding-right auto
+scroll-padding-top auto
+scroll-snap-align none
+scroll-snap-stop normal
+scroll-snap-type none
+scrollbar-gutter auto
+shape-image-threshold 0
+shape-margin 0px
+shape-outside none
+shape-rendering
