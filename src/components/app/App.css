@@ -11,106 +11,27 @@
 }
 
 /* fim das fontes fofas */
-*{
-color: rgb(229, 120, 143);
-}
-@media (min-width: 1000px) 
-{
-	body {
 
-		width: 100vw;
-		padding: 1vw;
-		background-color: rgb(230, 140, 160);
-	}
-
-	.generalCuteContainer {
-		border-radius: 20px;
-		background-color: rgb(245, 221, 204);
-		height: 96vh;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
-
-	h1 {
-		font-family: mtt;
-		font-size: 150px;
-		color: rgb(229, 120, 143);
-		line-height: 150px;
-	}
-
-	h2 {
-		font-family: chery;
-		font-size: 30px;
-		line-height: 0px;
-		color: rgb(229, 120, 143);
-	}
-
-	.addBtnCute {
-		color: rgb(239, 237, 238);
-		background-color: rgb(126, 150, 90);
-		border: solid 1px rgb(107, 128, 75);
-
-		border-radius: 25px;
-	}
-
-	.cuteForm {
-		background-color: rgba(244, 229, 160, 0.585);
-		border: solid 1px rgba(157, 136, 40, 0.585);
-		border-radius: 25px;
-		width: 65vw;
-		height: 35px;
-	}
-
-	.cuteRemindersBox {
-		border-radius: 20px;
-		border: solid 1px rgb(225, 111, 135);
-		height: 400px;
-		width: 68vw;
-		overflow-y: scroll;
-		scrollbar-color: light;
-		scrollbar-color: pink white;
-	}
-
-	
-
-	.cute-item-list {
-		background-color: rgb(245, 221, 204);
-		border: none;
-
-		font-size: 25px;
-		font-family: chery;
-		letter-spacing: 2px;
-	}
-	.cuteBtn {
-		background-color: rgba(244, 229, 160, 0.585);
-		border: solid 1px rgb(229, 120, 143);
-		font-size: 10px;
-		margin-left: 30px;
-	}
-
-	.cuteBtn:hover {
-		background-color: rgb(126, 150, 90);
-		border: solid 2px rgb(107, 128, 75);
-		color: rgb(238, 237, 239);
-	}
+/* minhas variaveis de cor: */
+:root {
+	--strongPink: rgb(229, 120, 143);
+	--lightPink: rgb(230, 140, 160);
+	--mainbgcolor: rgb(245, 221, 204);
 }
 
-/* TELINHA DE CELULAR  */
+* {
+	color: var(--strongPink);
+}
 
-@media (max-width: 999px)
- {
-	body {
+body {
+	width: 100vw;
+	padding: 1vw;
+	background-color: var(--mainbgcolor);
+}
 
-		width: 100vw;
-		padding: 1vw;
-			background-color: rgb(245, 221, 204);
-	}
-
+@media (max-width: 999px) {
 	.generalCuteContainer {
 		border-radius: 20px;
-
 		height: 96vh;
 		display: flex;
 		flex-direction: column;
@@ -121,7 +42,7 @@ color: rgb(229, 120, 143);
 	h1 {
 		font-family: mtt;
 		font-size: 50px;
-		color: rgb(229, 120, 143);
+		color: var(--strongPink);
 		line-height: 50px;
 	}
 
@@ -129,11 +50,11 @@ color: rgb(229, 120, 143);
 		font-family: chery;
 		font-size: 10px;
 		line-height: 0px;
-		color: rgb(229, 120, 143);
+		color: var(--strongPink);
 	}
 
 	.addBtnCute {
-		color: rgb(239, 237, 238);
+		color: var(--mainbgcolor);
 		background-color: rgb(126, 150, 90);
 		border: solid 1px rgb(107, 128, 75);
 		font-size: 5px;
@@ -155,13 +76,11 @@ color: rgb(229, 120, 143);
 		width: 75vw;
 		overflow-y: scroll;
 		scrollbar-color: light;
-		scrollbar-color: pink white;
+		scrollbar-color: var(--lightPink) white;
 	}
 
-	
-
 	.cute-item-list {
-		background-color: rgb(245, 221, 204);
+		background-color: var(--mainbgcolor);
 		border: none;
 		font-size: 20px;
 		font-family: chery;
@@ -169,7 +88,7 @@ color: rgb(229, 120, 143);
 	}
 	.cuteBtn {
 		background-color: rgba(244, 229, 160, 0.585);
-		border: solid 1px rgb(229, 120, 143);
+		border: solid 1px var(--strongPink);
 		font-size: 5px;
 		margin-left: 10px;
 	}
@@ -177,6 +96,83 @@ color: rgb(229, 120, 143);
 	.cuteBtn:hover {
 		background-color: rgb(126, 150, 90);
 		border: solid 1px rgb(107, 128, 75);
-		color: rgb(238, 237, 239);
+		color: var(--mainbgcolor);
 	}
 }
+
+
+@media (min-width: 1000px) {
+	.generalCuteContainer {
+		border-radius: 20px;
+		background-color: var(--mainbgcolor);
+		height: 96vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	h1 {
+		font-family: mtt;
+		font-size: 150px;
+		color: var(--strongPink);
+		line-height: 150px;
+	}
+
+	h2 {
+		font-family: chery;
+		font-size: 30px;
+		line-height: 0px;
+		color: var(--strongPink);
+	}
+
+	.addBtnCute {
+		color: var(--mainbgcolor);
+		background-color: rgb(126, 150, 90);
+		border: solid 1px rgb(107, 128, 75);
+		border-radius: 25px;
+	}
+
+	.cuteForm {
+		background-color: rgba(244, 229, 160, 0.585);
+		border: solid 1px rgba(157, 136, 40, 0.585);
+		border-radius: 25px;
+		width: 65vw;
+		height: 35px;
+	}
+
+	.cuteRemindersBox {
+		border-radius: 20px;
+		border: solid 1px var(--strongPink);
+		height: 400px;
+		width: 68vw;
+		overflow-y: scroll;
+		scrollbar-color: light;
+		scrollbar-color: pink white;
+	}
+
+	.cute-item-list {
+		background-color: var(--mainbgcolor);
+		border: none;
+
+		font-size: 25px;
+		font-family: chery;
+		letter-spacing: 2px;
+	}
+	.cuteBtn {
+		background-color: rgba(244, 229, 160, 0.585);
+		border: solid 1px var(--strongPink);
+		font-size: 10px;
+		margin-left: 30px;
+	}
+
+	.cuteBtn:hover {
+		background-color: rgb(126, 150, 90);
+		border: solid 2px rgb(107, 128, 75);
+		color: var(--mainbgcolor);
+	}
+}
+
+/* TELINHA DE CELULAR  */
+
+
